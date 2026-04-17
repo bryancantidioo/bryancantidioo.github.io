@@ -1,10 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
-.banner{
+.banner {
     background-image: url(../img/banner.jpg);
     background-position: center;
     background-size: cover;
@@ -16,15 +16,15 @@
     flex-direction: column;
 }
 
-.banner-titulo{
+.banner-titulo {
     color: white;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 420%;
-    
+
 }
 
-.banner-subtitulo{
+.banner-subtitulo {
     color: rgb(132, 128, 128);
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,11 +32,10 @@
     margin-top: -8px;
     margin-bottom: 60px;
 }
-.banner-menu{
 
-}
+.banner-menu {}
 
-.banner-menu a{
+.banner-menu a {
     color: rgb(132, 128, 128);
     text-decoration: none;
     text-transform: uppercase;
@@ -44,33 +43,34 @@
     letter-spacing: 3px;
     font-size: 80%;
     margin: 0 10px;
-    
+
     display: inline-block;
     padding: 10px 20px;
 }
 
-.banner-menu a:hover{
+.banner-menu a:hover {
     color: white;
     border-color: white;
     transition: 1s;
 }
 
-.banner-menu .botao-destaque{
+.banner-menu .botao-destaque {
     border: 2px solid;
     border-color: rgb(132, 128, 128);
-    border-radius:6px ;
-}
-main{
-    margin: 25px ;
-}
-.main-superior{
-    display: flex;
-    gap: 40px; 
-    align-items: stretch;
-    
+    border-radius: 6px;
 }
 
-.main-superior-destaque{
+main {}
+
+.main-superior {
+    display: flex;
+    gap: 40px;
+    align-items: stretch;
+    padding: 25px;
+
+}
+
+.main-superior-destaque {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -78,7 +78,7 @@ main{
 
 }
 
-.main-superior-destaque-titulo h2{
+.main-superior-destaque-titulo h2 {
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -86,21 +86,21 @@ main{
 
 }
 
-.main-superior-destaque-titulo p{
+.main-superior-destaque-titulo p {
     font-weight: bold;
 }
 
-.main-superior-destaque img{
+.main-superior-destaque img {
     height: auto;
     width: 100%;
 }
 
-.destaque-texto p{
+.destaque-texto p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
 }
 
-.main-superior-lateral h3{
+.main-superior-lateral h3 {
     margin-top: 10px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -109,22 +109,22 @@ main{
 
 }
 
-.foto-p{
+.foto-p {
     display: flex;
 }
 
-.artigo-lateral{
+.artigo-lateral {
     margin: 27px 0;
 }
 
-.artigo-lateral h4{
+.artigo-lateral h4 {
     color: rgb(132, 128, 128);
     text-transform: uppercase;
     font-size: 75%;
     margin-bottom: 15px;
 }
 
-.foto-p p{
+.foto-p p {
     margin-left: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 75%;
@@ -132,7 +132,44 @@ main{
     font-weight: bolder;
 }
 
-.main-inferior{
+.main-inferior {
     background-color: rgb(240, 240, 240);
+    display: flex;
+    gap: 40px;
+    padding: 60px 25px;
+
 }
 
+.main-inferior article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-inferior article img {
+    flex: 1;
+    width: 100%;
+    height: auto;
+}
+
+.main-inferior h3 {
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+.main-inferior p {
+    font-weight: bold;
+    font-size: 80%;
+    line-height: 150%;
+}
+
+.botao {
+    display: inline-block;
+    background-color: rgb(216, 82, 60);
+    padding: 12px 20px;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
