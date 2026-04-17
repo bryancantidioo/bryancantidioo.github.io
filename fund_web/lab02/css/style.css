@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-
+    
 }
 
 .banner {
@@ -33,7 +33,7 @@
     margin-bottom: 60px;
 }
 
-.banner-menu {}
+
 
 .banner-menu a {
     color: rgb(132, 128, 128);
@@ -60,7 +60,7 @@
     border-radius: 6px;
 }
 
-main {}
+
 
 .main-superior {
     display: flex;
@@ -115,6 +115,12 @@ main {}
 
 .artigo-lateral {
     margin: 27px 0;
+    height: 29%;
+    width: auto;
+    border-bottom: 1px solid rgb(132, 128, 128);
+}
+.artigo-lateral:last-child {
+    border-bottom: none;
 }
 
 .artigo-lateral h4 {
@@ -172,4 +178,47 @@ main {}
     text-decoration: none;
     color: white;
     border-radius: 20px;
+}
+
+.rodape{
+    display: flex;
+    background-color: black;
+    padding: 50px;
+    gap: 50px;
+   
+}
+
+.rodape-coluna h4{
+    color: white;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+.rodape-coluna{
+    flex: 1;
+}
+
+.rodape-coluna ul{
+    list-style: none;
+    
+}
+
+.rodape-coluna ul li a{
+    text-decoration: none;
+    color: rgb(132, 128, 128);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    
+   
+    
+    
+}
+
+.rodape-coluna ul li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(132, 128, 128);
+
 }
